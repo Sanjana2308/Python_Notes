@@ -416,11 +416,10 @@ print(player_stats)
 3.2. Using for loop
 ```python
 player_stats = [10, 20, 30]
-idx = 0
-while idx < len(player_stats):
-    player_stats[idx] = player_stats[idx] * 2
-    idx = idx + 1
-    
+
+for idx in range(len(player_stats)):
+    player_stats[idx] = player_stats[idx]*2
+
 print(player_stats)
 ```
 
